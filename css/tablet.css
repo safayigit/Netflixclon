@@ -1,0 +1,61 @@
+/*! Home */
+/* Header */
+.home-text {
+    margin-top: 10rem;
+  }
+  
+  .home-text h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+  }
+  
+  .home-text h2 {
+    margin-top: 2rem;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  
+  .home-text p {
+    margin-top: 2rem;
+    font-size: 25px;
+    font-weight: 100;
+  }
+  
+  .input-group {
+    display: block;
+  }
+  
+  .form-control {
+    height: 4rem !important;
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .input-group button {
+    width: 40% !important;
+  }
+  /* Section Content */
+  
+  .content-left h3 {
+    font-size: 2rem !important;
+  }
+  
+  .content-left p {
+    font-size: 1rem !important;
+  }
+  
+  /* footer */
+  
+  #footer-content {
+    margin-top: 5rem !important;
+  }
+  
+  /* ! Browse */
+  
+  
+  /*! Account */
+  
+  /*! profile */
+  
+  /*! Login  */
+  

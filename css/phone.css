@@ -1,0 +1,98 @@
+/*! Home */
+/* Header */
+.home-text {
+    margin-top: 5rem !important;
+  }
+  .home-text h1 {
+    font-size: 30px !important;
+    letter-spacing: 1px !important;
+  }
+  
+  .home-text h2 {
+    font-weight: 200 !important;
+  }
+  
+  .home-text p {
+    font-size: 20px !important;
+    font-weight: 100 !important;
+  }
+  
+  .input-group {
+    display: block !important;
+  }
+  
+  .form-control {
+    height: 3rem !important;
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .input-group button {
+    width: 40% !important;
+  }
+  
+  /* Section Content */
+  
+  .content-left h3 {
+    font-size: 2rem;
+  }
+  
+  .content-left p {
+    font-size: 1rem;
+  }
+  
+  /* Footer */
+  
+  #footer-content {
+    margin-top: 5rem !important;
+  }
+  
+  .footer {
+    width: 100% !important;
+    margin: 0 2rem !important;
+  }
+  
+  .footer-form,
+  .footer-country {
+    margin: 0 2rem !important;
+  }
+  
+  .footer-text {
+    text-align: center !important;
+  }
+  
+  /* ! Browse */
+  
+  #header-browse {
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+  }
+  
+  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    justify-content: space-evenly !important;
+  }
+  
+  /*! Account */
+  
+  .account-res {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  
+  /*! profile */
+  
+  /*! Login  */
+  
+  #login {
+    background:none !important;
+  }
+  
+  .login-parent {
+    width: 100% !important;
+    height: none !important;
+  }
+  
+  .login-top {
+    height: 5rem !important;
+  }

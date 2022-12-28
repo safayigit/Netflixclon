@@ -1,0 +1,379 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+
+
+/*! Home */
+/* Header */
+body {
+  background-color: #000;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/arkaplan.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header-text {
+  height: 50vh !important;
+}
+
+.home-text h1 {
+  font-size: 90px;
+  letter-spacing: 5px;
+}
+
+.home-text h2 {
+  font-weight: 300 !important;
+}
+
+.home-text p {
+  font-size: 20px !important;
+  font-weight: 200 !important;
+}
+
+.dropdown {
+  border: 1px solid white !important;
+  border-radius: 3px;
+}
+
+.input-group {
+  width: 80%;
+  margin: auto;
+  height: 60px;
+}
+
+.form-control {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: #fff !important;
+}
+
+.input-group button {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  width: 12rem !important;
+  margin-left: 0.1rem !important;
+}
+
+/* Section Content */
+
+
+hr {
+  border: 3px solid rgb(100, 100, 100);
+}
+
+.content-left h3 {
+  font-size: 3.125rem;
+}
+
+.content-left p {
+  font-size: 1.625rem;
+}
+
+/* Section Question */
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+}
+
+.accordion-item {
+  border-radius: 0 !important;
+  margin-bottom: 0.5rem !important;
+  border: none !important;
+  color: white !important;
+  background-color: rgb(55, 55, 55) !important;
+  border-color: #000 !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button {
+  color: white !important;
+  background-color: rgb(55, 55, 55) !important;
+  border: #000 !important;
+}
+
+.accordion-button::after {
+  background-image: url(../img/plus-solid.svg);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../img/minus-solid.svg) !important;
+}
+
+/* Section Mail */
+
+
+/* Footer */
+
+.footer-list li {
+  list-style: none;
+  margin-top: 0.6rem;
+  font-size: 13px;
+}
+
+.footer-list li a {
+  color: #737373;
+  text-decoration: none;
+}
+
+.footer-list li a:hover {
+  color: #737373;
+  border-bottom: 1px solid #737373;
+}
+
+.footer-country-title {
+  color: #737373;
+  margin-top: 1rem;
+  font-size: 13px;
+}
+
+/* ! Browse */
+
+
+#header-browse {
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/browse.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-browse {
+  background-color: #000 !important;
+}
+
+.dropdown-browse{
+  border: none !important;
+}
+
+.dropdown-toggle::after {
+  color: #fff !important;
+  font-size: 15px !important;
+}
+
+.btnBrowse {
+  border-color: rgba(0, 0, 0, 0) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.dropdown-browse:hover .dropdown-menu {
+  display: block !important;
+  left: -100px !important;
+}
+
+.dropdown-browse-menu {
+  background-color: rgba(0, 0, 0, 0.624) !important;
+}
+
+.dropdown-browse-item {
+  color: #fff !important;
+}
+
+.dropdown-browse-menu .dropdown-browse-item:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.dropdown-browse-menu a:hover {
+  border-bottom: 1px solid grey !important;
+}
+
+.btnBrowse i {
+  color: #fff !important;
+}
+
+.search-control {
+  border-top-left-radius: 0.375rem !important ;
+  border-bottom-left-radius: 0.375rem !important ;
+}
+
+.owl-theme .owl-nav {
+  margin-top: 0 !important;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  font-size: 3rem !important;
+  color: white !important;
+  background: none !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  font-size: 3rem !important;
+  color: white !important;
+  background: none !important;
+}
+
+/*! Account */
+
+
+.section-account {
+  background-color: #fff !important;
+}
+
+.space {
+  border: 1px solid grey;
+}
+
+.account-svg {
+  display: flex;
+}
+
+.account-membersince {
+  background: url(../img/account.svg) no-repeat;
+  height: 26px;
+  margin-right: 5px;
+  padding-right: 26px;
+  width: 26px;
+}
+
+.account-list li {
+  line-height: 50px !important;
+}
+
+/*! profile */
+
+.profile-content{
+  height: 100vh !important;
+}
+
+.card {
+  background-color: #000 !important;
+  color: gray !important;
+}
+
+.card-img-top {
+  border-bottom-left-radius: calc(0.375rem - 1px) !important;
+  border-bottom-right-radius: calc(0.375rem - 1px) !important;
+}
+
+.profile-row {
+  height: 100vh !important;
+}
+
+.profile-button a{
+  font-size: 1.5rem;
+  color: #737373;
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  border: 1px solid #737373;
+}
+
+.profile-button a:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card .card-img-top:hover + .card-body {
+  color: white;
+}
+
+.card .card-img-top:hover {
+  border: 1px solid white;
+}
+
+.animation-container {
+  animation-name: animate__fadeIn;
+  animation: .5s ease-in-out ;
+}
+
+/*! Login  */
+
+#login {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/arkaplan.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.login-parent {
+  background-color: rgba(0, 0, 0, 0.792);
+  width: 40%;
+  margin: auto;
+  /* height: 50rem; */
+  border-radius: 2px;
+}
+
+.login-control {
+  width: 90% !important;
+  margin: auto;
+}
+
+
+.form-control-login {
+  width: 100%;
+  margin: auto;
+  border-top-left-radius: 0.5rem !important ;
+  border-bottom-left-radius: 0.5rem!important;
+  background-color: #333;
+  border: none;
+}
+
+.form-control-login::placeholder {
+  color: #737373 !important;
+}
+
+.form-control-login:focus {
+  background-color: #333 !important;
+}
+
+.btnLogin {
+  background-color: #e50914 !important;
+  height: 50px;
+}
+
+.form-check {
+  color: #b3b3b3;
+}
+
+.help-text a{
+  color: #b3b3b3 !important;
+}
+
+.signup-text {
+  color: #b3b3b3;
+  font-size: 1.3rem;
+}
+
+.end-text {
+  color: #b3b3b3;
+
+}
+
+.loginFooter {
+  background-color: rgba(0, 0, 0, 0.66);
+}
+
+@media screen and (max-width:1024px) {
+  .login-parent {
+    width: 90% !important;
+    height: none !important;
+  }
+}
